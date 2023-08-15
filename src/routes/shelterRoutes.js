@@ -5,7 +5,7 @@ import {
   getShelterById,
   updateShelter,
   deleteShelter
-} from '../controllers/shelterController';
+} from '../controllers/shelterController.js';
 
 const router = express.Router();
 

@@ -1,5 +1,5 @@
 // models/shelterModel.js
-const mongoose = require('mongoose');
+import mongoose from 'mongoose';
 
 const shelterSchema = new mongoose.Schema({
   name: String,
@@ -10,4 +10,4 @@ const shelterSchema = new mongoose.Schema({
 
 const Shelter = mongoose.model('Shelter', shelterSchema);
 
-module.exports = Shelter;
+export default Shelter;

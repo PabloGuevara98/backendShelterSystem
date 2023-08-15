@@ -1,4 +1,4 @@
-import Shelter from '../models/shelterModel';
+import Shelter from '../models/shelterModel.js';
 
 // Crear un nuevo albergue
 export const createShelter = async (req, res) => {
